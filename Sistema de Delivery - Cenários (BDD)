@@ -1,0 +1,44 @@
+📄 Cenários BDD (Desenvolvimento Orientado por Comportamento)
+
+Cenário 1: Realizar pedidos com sucesso
+  Dado que o cliente esteja cadastrado e logado no sistema
+  E que tenha selecionado os itens desejados
+  Quando confirmar o pedido
+  Então o pedido deve ser registrado com sucesso
+  E o restaurante deve ser notificado
+  E o cliente deve receber a confirmação
+
+Cenário 2: Pedido rejeitado pelo restaurante
+  Dado que o cliente tenha realizado um pedido
+  Quando o restaurante rejeitar o pedido
+  Então o cliente deve ser notificado sobre a rejeição
+
+Cenário 3: Pedido aceito pelo restaurante
+  Dado que o cliente tenha realizado um pedido
+  Quando o restaurante aceitar o pedido
+  Então o pedido deve seguir para preparação
+  E o cliente deve ser notificado sobre a confirmação
+
+Cenário 4: Pagamento aprovado
+  Dado que o cliente tenha realizado um pedido
+  E que tenha escolhido uma forma de pagamento
+  Quando o pagamento for aprovado
+  Então o pedido deve ser confirmado para o preparo
+
+Cenário 5: Pagamento recusado
+  Dado que o cliente tenha realizado um pedido
+  Quando o pagamento for recusado
+  Então o pedido deve ser cancelado
+  E o cliente deve ser notificado para tentar novamente
+
+Cenário 6: Acompanhamento da entrega
+  Dado que o pedido foi aceito pelo restaurante
+  Quando o pedido sair para entrega
+  Então o cliente deve ser notificado
+  E deve conseguir acompanhar o status da entrega
+
+Cenário 7: Pedido entregue com sucesso
+  Dado que o pedido esteja em rota de entrega
+  Quando o entregador finalizar a entrega
+  Então o pedido deve ser marcado como entregue
+E o cliente deve ser notificado da entrega

@@ -31,5 +31,5 @@ Sou profissional com experiência em análise de requisitos, atuando no levantam
 - Diagramas BPMN
 
 ## 📬 Contato
-- LinkedIn: 
+- LinkedIn: https://www.linkedin.com/in/dheboraalice/
 - Email: dheboraaalice@gmail.com

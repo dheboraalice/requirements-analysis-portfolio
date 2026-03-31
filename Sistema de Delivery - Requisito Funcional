@@ -1,0 +1,10 @@
+📄 Requisito Funcional 
+
+-RF01: Usuário pode se cadastrar
+	O sistema deve permitir que o usuário realize seu cadastro, informando os dados necessários para a criação de uma conta.
+
+-RF02: Usuário pode fazer pedidos
+	O sistema deve permitir que o usuário realize pedidos, selecionando os itens desejados e confirmando a solicitação.
+
+-RF03: Restaurante pode aceitar/rejeitar pedidos
+	O sistema deve permitir que o restaurante visualize os pedidos recebidos e possa aceitá-los ou rejeitá-los.

@@ -17,7 +17,7 @@ Sou profissional com experiência em análise de requisitos, atuando no levantam
 - Levantamento de requisitos com stakeholders
 - Criação de histórias de usuário
 - Modelagem de processos
-- Ferramentas: Jira, Bizagi
+- Ferramentas: Figma, Bizagi
 
 ### Sistema de Vendas
 - Documentação de requisitos funcionais

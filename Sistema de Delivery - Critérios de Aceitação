@@ -1,0 +1,5 @@
+📄 Critérios de Aceitação – Envio de Pedido
+
+- O pedido deve possuir um endereço de entrega válido, com todos os campos obrigatórios preenchidos corretamente (rua, número, cidade, CEP etc.).
+- O pedido deve ter o pagamento aprovado pelo sistema ou pelo gateway de pagamento.
+- O envio do pedido só pode ser iniciado após a validação simultânea das duas condições acima.

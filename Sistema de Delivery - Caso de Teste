@@ -1,0 +1,30 @@
+📄 Casos de Teste
+
+Caso 1: Pedido sem endereço
+  Nome: Validar pedido sem endereço
+  Pré-condição: Pedido criado no sistema
+  Dados de entrada: Endereço ausente ou incompleto
+
+Passos:
+  Criar ou selecionar um pedido sem endereço de entrega
+  Tentar processar o pedido para envio
+
+Resultado esperado:
+  O sistema deve bloquear o envio
+  Deve exibir mensagem de erro indicando endereço inválido ou ausente
+
+
+
+Caso 2: Pagamento recusado
+  Nome: Validar pagamento recusado
+  Pré-condição: Pedido com endereço válido
+  Dados de entrada: Pagamento com status "Recusado"
+
+Passos:
+  Criar ou selecionar um pedido com endereço válido
+  Simular ou registrar pagamento recusado
+  Tentar processar o pedido para envio
+
+Resultado esperado:
+  O sistema deve bloquear o envio
+  Deve exibir mensagem de erro indicando pagamento não aprovado
